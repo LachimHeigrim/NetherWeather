@@ -1,0 +1,16 @@
+{
+    "dimensions": [
+        {
+            "dim": -1,
+            "override": "true",
+            "dimensiontype":
+            {
+                "id": -1,
+                "name": "Nether",
+                "suffix": "_dim-1",
+                "keeploaded": false,
+                "worldprovider": "biomesoplenty.common.world.WorldProviderBOPHell"
+            }
+        }
+    ]
+}
