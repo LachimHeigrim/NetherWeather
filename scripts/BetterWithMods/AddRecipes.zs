@@ -22,5 +22,5 @@ mods.betterwithmods.Mill.add(<minecraft:sand>,null,[<minecraft:gravel>]);
 mods.betterwithmods.Cauldron.add(<minecraft:clay>, <minecraft:bucket>, [<minecraft:sand>,<biomesoplenty:ash_block>,<minecraft:water_bucket>]);
 mods.betterwithmods.Cauldron.add(<minecraft:clay>, <minecraft:glass_bottle>, [<minecraft:sand>,<biomesoplenty:ash_block>,<minecraft:potion>.withTag({Potion: "minecraft:water"})]);
 
-// #### Potash
+// ##### Potash
 mods.betterwithmods.Mill.add(potash,null,[potashApple]);
