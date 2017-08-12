@@ -10,3 +10,5 @@ mods.initialinventory.InvHandler.addStartingItem(<grapplemod:grapplinghook>);
 
 val nightVisionPotion = <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"});
 mods.initialinventory.InvHandler.addStartingItem(nightVisionPotion * 5);
+
+mods.initialinventory.InvHandler.addStartingItem(<minecraft:pumpkin_pie> * 4);
