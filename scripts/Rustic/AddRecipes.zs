@@ -8,7 +8,9 @@ val mulch = <forestry:mulch>;
 val mushroomItems = [
  <minecraft:brown_mushroom>,
  <minecraft:red_mushroom>,
- <biomesoplenty:mushroom:*>,
+ <biomesoplenty:mushroom>,
+ <biomesoplenty:mushroom:3>,
+ <biomesoplenty:mushroom:4>,
  <rustic:deathstalk_mushroom>
 ] as IItemStack[];
 
