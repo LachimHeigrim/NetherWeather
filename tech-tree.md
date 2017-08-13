@@ -1,5 +1,6 @@
 # Tech Tree
 ```
+Spawned items
 |-- crushing_tub
     |-- wood planks + wood slabs
 |-- natura furnace
