@@ -1,4 +1,5 @@
-Tech Tree
+# Tech Tree
+```
 |-- crushing_tub
     |-- wood planks + wood slabs
 |-- natura furnace
@@ -11,3 +12,4 @@ Tech Tree
     |-- soul glass
 |-- cobblestone
     |-- magma + water bottle
+```
