@@ -18,7 +18,7 @@ mods.betterwithmods.Mill.add(plantFiber, null, [devilsweed]);
 // ##### Sand production
 mods.betterwithmods.Mill.add(<minecraft:sand>,null,[<minecraft:gravel>]);
 
-// ##### Clay production
+// ##### Clay production: 2x more efficient than in crafting grid
 mods.betterwithmods.Cauldron.add(<minecraft:clay>, <minecraft:bucket>, [<minecraft:sand>,<biomesoplenty:ash_block>,<minecraft:water_bucket>]);
 mods.betterwithmods.Cauldron.add(<minecraft:clay>, <minecraft:glass_bottle>, [<minecraft:sand>,<biomesoplenty:ash_block>,<minecraft:potion>.withTag({Potion: "minecraft:water"})]);
 
