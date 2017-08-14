@@ -1,9 +1,12 @@
-# Fertilizer
-val potash = <ore:dustPotash>;
+import minetweaker.item.IIngredient;
+# Fertilizer from potash and niter
+val agents = [<ore:dustPotash>,<ore:dustSaltpeter>] as IIngredient[];
 val mulch = <forestry:mulch>;
 
-recipes.addShaped(<forestry:fertilizer_compound> * 8,
-  [[mulch,mulch,mulch],
-  [mulch,potash,mulch],
-  [mulch,mulch,mulch]]
-);
+for agent in agents {
+  recipes.addShaped(<forestry:fertilizer_compound> * 8,
+    [[mulch,mulch,mulch],
+    [mulch,agent,mulch],
+    [mulch,mulch,mulch]]
+  );
+}
