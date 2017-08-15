@@ -10,7 +10,7 @@ Spawned items
 |-- water
     |-- crushing_tub + mushrooms
 |-- glass_bottle
-    |-- soul glass
+    |-- soul glass from soul sand
 |-- cobblestone
     |-- magma + water bottle
 ```
