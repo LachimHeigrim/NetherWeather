@@ -15,3 +15,12 @@ recipes.addShaped(verticalWindmill,
    [ <ore:stickWood>,<ore:plankWood>,<ore:stickWood>],
    [ windmillBlade,<ore:stickWood>,windmillBlade]
   ]);
+
+  # Turntable
+  val turnTable = <betterwithmods:single_machine:6>;
+  recipes.remove(turnTable);
+  recipes.addShaped(turnTable,
+    [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+     [<ore:stone>, <minecraft:clock>, <ore:stone>],
+     [<ore:stone>, <ore:gearWood>, <ore:stone>]
+    ]);
