@@ -20,6 +20,8 @@ Spawned items
 |-- fertilizer
     |-- nitrate + mulch
     |-- potash + mulch: grind potash apple to potash in mill
+|-- large red + brown shrooms
+    |-- dirt + fertilizer: plant on dirt and fertilize
 |-- mill stone (hand crank)
     |-- cobblestone + stone
 |-- plant fiber
