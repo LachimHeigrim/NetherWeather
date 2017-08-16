@@ -24,3 +24,13 @@ mods.betterwithmods.Cauldron.add(<minecraft:clay> * 2, <minecraft:glass_bottle>,
 
 // ##### Potash
 mods.betterwithmods.Mill.add(potash,null,[potashApple]);
+
+// ##### Redstone
+val bloodLogs = [
+  <natura:nether_logs2>,
+  <natura:nether_logs2:15>
+  ] as IItemStack[];
+
+for bloodLog in bloodLogs {
+    mods.betterwithmods.Mill.add(<minecraft:redstone> * 4, null, [bloodLog]);
+}
