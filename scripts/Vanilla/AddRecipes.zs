@@ -7,6 +7,7 @@ val unfiredPlanter = <betterwithmods:unfired_pottery:1>;
 val planter = <betterwithmods:planter>;
 furnace.addRecipe(planter,unfiredPlanter);
 recipes.addShaped(<minecraft:bucket>,
-  [[ null, <ore:stickWood>],
-   [ planter, null]
+  [[ null, <betterwithmods:material:3>, null],
+   [ <betterwithmods:material:3>, null, <betterwithmods:material:3> ],
+   [null, planter, null]
 ]);
