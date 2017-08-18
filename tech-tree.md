@@ -38,4 +38,27 @@ Spawned items
     |-- redstone + gold nuggets
 |-- turntable
     |-- clock: plug mechanical power using gearbox and axles
+|-- planter
+    |-- clay on turnable
+|-- bucket
+    |-- planter + plant fiber
+|-- evaporation basin
+    |-- hardened clay
+|-- iron pile
+    |-- evaporate blood liquid: collect or crush flesh, use bucket
+|-- shears
+    |-- iron
+|-- cauldron
+    |-- from iron
+|-- tanned leather
+    |-- leather + bark in cauldron
+|-- leather stripes
+    |-- shears on tanned leather
+|-- saw
+    |-- iron ingots + leather stripes, requires vertical windmill
+|-- alchemical condenser + retorts
+    |-- bucket + brick + iron
+|-- copper ore
+    |-- imp meat + sulfur + water + bottle in alchemical condenser
+
 ```
