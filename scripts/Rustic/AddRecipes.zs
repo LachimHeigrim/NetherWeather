@@ -41,3 +41,8 @@ mods.rustic.CrushingTub.addRecipe(<liquid:blood> * 1000, null, <biomesoplenty:fl
 
 // blood -> tiny iron pile
 mods.rustic.EvaporatingBasin.addRecipe(<rustic:dust_tiny_iron>,<liquid:blood> * 250);
+
+// ###### Copper production
+val sulfurPowder = <natura:materials:4>;
+val impMeat = <natura:edibles>;
+mods.rustic.Condenser.addRecipe(<immersiveengineering:ore> * 4,impMeat, sulfurPowder);
