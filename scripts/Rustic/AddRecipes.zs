@@ -53,9 +53,14 @@ val niter = <betterwithmods:material:26>;
 val tinDust = <rockhounding_chemistry:chemical_dusts:18>;
 mods.rustic.Condenser.addRecipe(tinDust,dirtPile,niter);
 
+// ###### Elixir of night vision (3:00)
+val eyeBulb = <biomesoplenty:double_plant:2>;
+val charcoalDust = <betterwithmods:material:39>;
+val elixirNightVision3min = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]});
+mods.rustic.Condenser.removeRecipe(elixirNightVision3min);
+mods.rustic.Condenser.addRecipe(elixirNightVision3min,eyeBulb,charcoalDust);
 
 // ###### Elixir of night vision (8:00)
-val elixirNightVision = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]});
-val greenGlowshroom = <natura:nether_glowshroom>;
-val eyeBulb = <biomesoplenty:double_plant:2>;
-mods.rustic.Condenser.addRecipe(elixirNightVision,eyeBulb,greenGlowshroom);
+val elixirNightVision15min = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]});
+val charcoalFilter = <toughasnails:charcoal_filter>;
+mods.rustic.Condenser.addRecipe(elixirNightVision15min,eyeBulb,charcoalFilter);
