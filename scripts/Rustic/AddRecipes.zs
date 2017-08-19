@@ -63,4 +63,5 @@ mods.rustic.Condenser.addRecipe(elixirNightVision3min,eyeBulb,charcoalDust);
 // ###### Elixir of night vision (8:00)
 val elixirNightVision15min = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]});
 val charcoalFilter = <toughasnails:charcoal_filter>;
-mods.rustic.Condenser.addRecipe(elixirNightVision15min,eyeBulb,charcoalFilter);
+val duskBerry = <natura:edibles:7>;
+mods.rustic.Condenser.addRecipe(elixirNightVision15min,duskBerry,charcoalFilter);
