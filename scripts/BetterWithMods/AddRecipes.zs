@@ -35,23 +35,26 @@ for bloodLog in bloodLogs {
     mods.betterwithmods.Mill.add(<minecraft:redstone> * 4, null, [bloodLog]);
 }
 
-// ###### Iron dust production (2x)
+// ###### Iron dust/nugget production (2x)
 val ironDust = <rockhounding_chemistry:chemical_dusts:16>;
 val fleshChunk = <biomesoplenty:flesh>;
 val ironNugget = <minecraft:iron_nugget>;
+val ironDustOreDict = <ore:dustIron>;
 mods.betterwithmods.Kiln.add([ironDust * 2],fleshChunk);
-mods.betterwithmods.StokedCrucible.add(ironNugget * 2,null,[ironDust]);
+mods.betterwithmods.StokedCrucible.add(ironNugget * 2,null,[ironDustOreDict]);
 
-// ###### Copper dust production (2x)
+// ###### Copper dust/nugget production (2x)
 val copperDust = <rockhounding_chemistry:chemical_dusts:17>;
 val blueGlowshroom = <natura:nether_glowshroom:1>;
 val copperNugget = <libvulpes:productnugget:4>;
+val copperDustOreDict = <ore:dustCopper>;
 mods.betterwithmods.Kiln.add([copperDust * 2],blueGlowshroom);
-mods.betterwithmods.StokedCrucible.add(copperNugget * 2,null,[copperDust]);
+mods.betterwithmods.StokedCrucible.add(copperNugget * 2,null,[copperDustOreDict]);
 
-// ##### Tin ore production
+// ##### Tin dust/nugget production
 val tinDust = <rockhounding_chemistry:chemical_dusts:18>;
 val ghostWoodLeaves = <natura:nether_leaves>;
 val tinNugget = <libvulpes:productnugget:5>;
+val tinDustOreDict = <ore:dustTin>;
 mods.betterwithmods.Kiln.add([tinDust],ghostWoodLeaves);
-mods.betterwithmods.StokedCrucible.add(tinNugget * 2,null,[tinDust]);
+mods.betterwithmods.StokedCrucible.add(tinNugget * 2,null,[tinDustOreDict]);
