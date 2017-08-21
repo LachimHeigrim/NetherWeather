@@ -42,16 +42,16 @@ mods.rustic.CrushingTub.addRecipe(<liquid:blood> * 1000, null, <biomesoplenty:fl
 // blood -> tiny iron pile
 mods.rustic.EvaporatingBasin.addRecipe(<rustic:dust_tiny_iron>,<liquid:blood> * 250);
 
-// ###### Copper production
+// ###### Copper ore production
 val sulfurPowder = <natura:materials:4>;
 val impMeat = <natura:edibles>;
 mods.rustic.Condenser.addRecipe(<immersiveengineering:ore> * 4,impMeat, sulfurPowder);
 
-// ##### Tin production
-val dirtPile = <betterwithmods:dirt_pile>;
-val niter = <betterwithmods:material:26>;
-val tinDust = <rockhounding_chemistry:chemical_dusts:18>;
-mods.rustic.Condenser.addRecipe(tinDust,dirtPile,niter);
+// ##### Tin ore production
+val mudBlock = <biomesoplenty:mud>;
+val hellfireDust = <betterwithmods:material:16>;
+val tinOre = <forestry:resources:2>;
+mods.rustic.Condenser.addRecipe(tinOre,mudBlock,hellfireDust);
 
 // ###### Elixir of night vision (3:00)
 val eyeBulb = <biomesoplenty:double_plant:2>;

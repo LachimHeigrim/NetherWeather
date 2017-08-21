@@ -90,5 +90,6 @@ Spawned items
     |-- bucket + brick + iron
 |-- copper ore
     |-- imp meat + sulfur + water + bottle in alchemical condenser
-
+|-- tin ore
+    |-- mud block + hellfire dust + bottle in alchemical condenser
 ```
