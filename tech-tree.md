@@ -41,8 +41,25 @@ Spawned items
     |-- crushing_tub + mushrooms
 |-- glass_bottle
     |-- soul glass from soul sand
+|-- bucket
+    |-- 3x imp leather
+|-- evaporation basin
+    |-- hardened clay
+|-- iron pile
+    |-- evaporate blood liquid: collect or crush flesh, use bucket
+|-- shears
+    |-- iron
+|-- cauldron
+    |-- from iron
+|-- tanned leather
+    |-- leather + bark in cauldron
+|-- leather stripes
+    |-- shears on tanned leather
+|-- saw
+    |-- iron ingots + leather stripes, requires vertical windmill
 |-- cobblestone
     |-- magma + water bottle
+    |-- lava in evaporation basin
 |-- mud
     |-- moving sand + lava in world ... pour lava on moving sand
 |-- dirt
@@ -70,26 +87,18 @@ Spawned items
     |-- clock: plug mechanical power using gearbox and axles
 |-- planter
     |-- clay on turnable
-|-- bucket
-    |-- planter + plant fiber
-|-- evaporation basin
-    |-- hardened clay
-|-- iron pile
-    |-- evaporate blood liquid: collect or crush flesh, use bucket
-|-- shears
-    |-- iron
-|-- cauldron
-    |-- from iron
-|-- tanned leather
-    |-- leather + bark in cauldron
-|-- leather stripes
-    |-- shears on tanned leather
-|-- saw
-    |-- iron ingots + leather stripes, requires vertical windmill
 |-- alchemical condenser + retorts
     |-- bucket + brick + iron
-|-- copper ore
-    |-- imp meat + sulfur + water + bottle in alchemical condenser
+|-- bellows
+    |-- tanned leather
+|-- hibachi
+    |-- hellfire ingots + redstone + blaze powder (heating element) + stone
+|-- kiln
+    |-- bricks + hibachi + bellows
+|-- iron dust (2x)
+    |-- kiln: burn flesh chunk
+|-- copper dust
+    |-- kiln: blue glowshrooms
 |-- tin ore
-    |-- mud block + hellfire dust + bottle in alchemical condenser
+    |-- kiln: ghostwood leaves
 ```
