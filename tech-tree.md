@@ -35,6 +35,8 @@ Spawned items
     |-- wood planks + wood slabs
 |-- natura furnace
     |-- netherrack
+|-- kama
+    |-- natura woods
 |-- coal
     |-- ash from ash_block
 |-- water
