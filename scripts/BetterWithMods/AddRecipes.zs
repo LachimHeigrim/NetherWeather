@@ -7,12 +7,12 @@ val potash = <betterwithmods:material:21>;
 val potashApple = <natura:edibles:10>;
 
 // ##### Fiber production
-// nether ivy -> 2 fibers
-mods.betterwithmods.Mill.add(plantFiber * 2,null,[<biomesoplenty:ivy>]);
-// thornvines -> 2 fibers
-mods.betterwithmods.Mill.add(plantFiber * 2,null,[<natura:nether_thorn_vines>]);
-// devilsweed -> 1 fiber
-mods.betterwithmods.Mill.add(plantFiber, null, [devilsweed]);
+// nether ivy -> 4 fibers
+mods.betterwithmods.Mill.add(plantFiber * 4,null,[<biomesoplenty:ivy>]);
+// thornvines -> 3 fibers
+mods.betterwithmods.Mill.add(plantFiber * 3,null,[<natura:nether_thorn_vines>]);
+// devilsweed -> 2 fiber
+mods.betterwithmods.Mill.add(plantFiber * 2, null, [devilsweed]);
 
 
 // ##### Sand production
@@ -51,7 +51,7 @@ val copperDustOreDict = <ore:dustCopper>;
 mods.betterwithmods.Kiln.add([copperDust * 2],blueGlowshroom);
 mods.betterwithmods.StokedCrucible.add(copperNugget * 2,null,[copperDustOreDict]);
 
-// ##### Tin dust/nugget production
+// ##### Tin dust/nugget production (2x)
 val tinDust = <rockhounding_chemistry:chemical_dusts:18>;
 val ghostWoodLeaves = <natura:nether_leaves>;
 val tinNugget = <libvulpes:productnugget:5>;
