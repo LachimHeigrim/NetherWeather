@@ -40,7 +40,20 @@ mods.rustic.CrushingTub.addRecipe(<liquid:blood> * 250, null, <biomesoplenty:fle
 mods.rustic.CrushingTub.addRecipe(<liquid:blood> * 1000, null, <biomesoplenty:flesh>);
 
 // blood -> tiny iron pile
+val tinyIronDust = <rustic:dust_tiny_iron>;
 mods.rustic.EvaporatingBasin.addRecipe(<rustic:dust_tiny_iron>,<liquid:blood> * 250);
+
+// tiny iron pile ->  iron dust
+val ironDust = <rockhounding_chemistry:chemical_dusts:16>;
+recipes.removeShaped(<rustic:dust_iron>);
+recipes.addShaped(ironDust,
+  [
+    [tinyIronDust,tinyIronDust],
+    [tinyIronDust,tinyIronDust]
+  ]
+);
+
+
 
 // ###### Elixir of night vision (3:00)
 val eyeBulb = <biomesoplenty:double_plant:2>;
