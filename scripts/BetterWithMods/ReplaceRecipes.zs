@@ -1,5 +1,6 @@
 # Vertical windmill cheaper recipe
-val verticalWindmill = <betterwithmods:windmill:2>;
+// val verticalWindmill = <betterwithmods:windmill:2>;
+val verticalWindmill = <betterwithmods:axle_generator:2>;
 val windmillBlade = <betterwithmods:material:11>;
 
 recipes.remove(windmillBlade);

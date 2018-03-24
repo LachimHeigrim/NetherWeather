@@ -1,4 +1,4 @@
-import minetweaker.item.IItemStack;
+import crafttweaker.item.IItemStack;
 
 // Aliases
 val devilsweed = <biomesoplenty:plant_1:7>;

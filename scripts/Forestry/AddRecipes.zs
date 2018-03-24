@@ -1,4 +1,4 @@
-import minetweaker.item.IIngredient;
+import crafttweaker.item.IIngredient;
 # Fertilizer from potash and niter
 val agents = [<ore:dustPotash>,<ore:dustSaltpeter>] as IIngredient[];
 val mulch = <forestry:mulch>;

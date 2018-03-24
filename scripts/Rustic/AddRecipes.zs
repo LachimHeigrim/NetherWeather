@@ -1,4 +1,4 @@
-import minetweaker.item.IItemStack;
+import crafttweaker.item.IItemStack;
 
 // ##### Water production
 
@@ -44,8 +44,7 @@ val tinyIronDust = <rustic:dust_tiny_iron>;
 mods.rustic.EvaporatingBasin.addRecipe(<rustic:dust_tiny_iron>,<liquid:blood> * 250);
 
 // tiny iron pile ->  iron dust
-val ironDust = <rockhounding_chemistry:chemical_dusts:16>;
-recipes.removeShaped(<rustic:dust_iron>);
+val ironDust = <rockhounding_chemistry:chemical_dusts:30>;
 recipes.addShaped(ironDust,
   [
     [tinyIronDust,tinyIronDust],
